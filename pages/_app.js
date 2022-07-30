@@ -1,18 +1,17 @@
 import React from 'react';
-
 import Header from './components/Header';
 import TranslationBody from './components/TranslationBody';
 import Footer from './components/Footer';
+import '../styles/globals.css'
 
-
-const App = () => {
+function MyApp() {
   return (
     <>
-        <Header/>
-        <TranslationBody />
-        <Footer />
+      <Header />
+      <TranslationBody />
+      <Footer />
     </>
   )
 }
 
-export default App
+export default MyApp
